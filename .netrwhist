@@ -1,0 +1,6 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/Users/fredrik.naslund/Desktop/code/fredells_web/Fredells.Web'
+let g:netrw_dirhist_2='/Users/fredrik.naslund/Desktop/code/fredells_web/Fredells.Web/Site'
+let g:netrw_dirhist_3='/Users/fredrik.naslund/Desktop/code/fredells_web/Fredells.Web/Site/CMS'
+let g:netrw_dirhist_4='/Users/fredrik.naslund/Desktop/code/fredells_web/Fredells.Web/Site/CMS/Templates'
