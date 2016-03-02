@@ -53,9 +53,6 @@ nmap <Leader>ev :tabedit $MYVIMRC<cr>
 "Add simple highligt removal.
 nmap <Leader><space> :nohlsearch<cr>
 
-"Make NERDTree easier to toggle.
-nmap <Leader>nt :NERDTreeToggle<cr>
-
 
 
 
@@ -71,7 +68,7 @@ let g:crtlp_match_window = 'top,order:ttb,min:1,max:30,results:30'
 nmap <c-R> :CtrlPBufTag<cr>
 
 "Show opened files
-nmap <D-e :CtrlPMRUFiles<cr>
+nmap <D-e> :CtrlPMRUFiles<cr>
 
 
 
@@ -79,6 +76,9 @@ nmap <D-e :CtrlPMRUFiles<cr>
 "/ NERDTree
 "/
 let NERDTreeHijackNetrw = 0
+
+"Make NERDTree easier to toggle.
+nmap <Leader>nt :NERDTreeToggle<cr>
 
 "----------Auto-Commands --------"
 
